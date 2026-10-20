@@ -1,0 +1,8 @@
+packages:
+  - 'packages/*'
+  # apps/client（フェーズ1〜）、apps/server（フェーズ2〜）は該当フェーズで追加する
+  - 'apps/*'
+
+# Vitest が使う esbuild のみビルドスクリプトを許可する
+onlyBuiltDependencies:
+  - esbuild

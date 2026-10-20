@@ -1,0 +1,5 @@
+# Prettier を endOfLine: lf で設定しているので、作業ツリーもLFに統一する。
+# これがないとWindowsでCRLFにチェックアウトされ、format:check が落ちる。
+* text=auto eol=lf
+
+pnpm-lock.yaml -diff linguist-generated
